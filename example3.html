@@ -62,32 +62,32 @@
     
     <h3>Example</h3>
     <pre><code>
-class Animal {
-    constructor(name) {
-        this.name = name; // Set the name property
-    }
+        class Animal {
+            constructor(name) {
+                this.name = name; // Set the name property
+            }
 
-    speak() {
-        return \`\${this.name} makes a noise.\`;
-    }
-}
+            speak() {
+                return \`\${this.name} makes a noise.\`;
+            }
+        }
 
-class Dog extends Animal {
-    constructor(name, breed) {
-        super(name); // Call the parent constructor
-        this.breed = breed; // Set the additional breed property
-    }
+        class Dog extends Animal {
+            constructor(name, breed) {
+                super(name); // Call the parent constructor
+                this.breed = breed; // Set the additional breed property
+            }
 
-    speak() {
-        return \`\${this.name} barks.\`;
-    }
-}
+            speak() {
+                return \`\${this.name} barks.\`;
+            }
+        }
 
-// Usage
-const myDog = new Dog('Rex', 'Golden Retriever');
-console.log(myDog.speak()); // Output: "Rex barks."
-console.log(myDog.name); // Output: "Rex"
-console.log(myDog.breed); // Output: "Golden Retriever"
+        // Usage
+        const myDog = new Dog('Rex', 'Golden Retriever');
+        console.log(myDog.speak()); // Output: "Rex barks."
+        console.log(myDog.name); // Output: "Rex"
+        console.log(myDog.breed); // Output: "Golden Retriever"
     </code></pre>
     
     <h3>Key Points to Remember</h3>

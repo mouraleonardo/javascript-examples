@@ -82,18 +82,18 @@
 </div>
 
 <script>
-    // Function to reverse a string without using built-in methods
-    function reverseString(str) {
+    // Arrow function to reverse a string without using built-in methods
+    const reverseString = (str) => {
         let reversed = ''; // Initialize an empty string to hold the reversed result
         // Iterate from the end of the string to the beginning
         for (let i = str.length - 1; i >= 0; i--) {
             reversed += str[i]; // Append each character to the reversed string
         }
         return reversed; // Return the reversed string
-    }
+    };
 
-    // Function to find the longest word in a sentence
-    function findLongestWord(sentence) {
+    // Arrow function to find the longest word in a sentence
+    const findLongestWord = (sentence) => {
         const words = sentence.split(' '); // Split the sentence into words
         let longestWord = ''; // Initialize the longest word variable
         
@@ -106,10 +106,10 @@
         }
         
         return longestWord; // Return the longest word found
-    }
+    };
 
-    // Function to remove duplicates from an array
-    function removeDuplicates(arr) {
+    // Arrow function to remove duplicates from an array
+    const removeDuplicates = (arr) => {
         const uniqueArray = []; // Array to hold unique elements
         
         // Iterate through the input array
@@ -121,17 +121,17 @@
         }
         
         return uniqueArray; // Return the array of unique elements
-    }
+    };
 
-    // Function to validate an email using Regular Expressions
-    function validateEmail(email) {
+    // Arrow function to validate an email using Regular Expressions
+    const validateEmail = (email) => {
         // Regular expression for validating an email
         const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
         return regex.test(email); // Return true if email matches the regex, otherwise false
-    }
+    };
 
-    // Function to display results on the web page
-    function displayResults() {
+    // Arrow function to display results on the web page
+    const displayResults = () => {
         const strInput = document.getElementById('stringInput').value;
         const sentenceInput = document.getElementById('sentenceInput').value;
         const arrayInput = document.getElementById('arrayInput').value.split(',').map(Number);
@@ -142,7 +142,8 @@
         document.getElementById('longestWordOutput').textContent = `Longest Word: ${findLongestWord(sentenceInput)}`;
         document.getElementById('uniqueArrayOutput').textContent = `Unique Array: ${removeDuplicates(arrayInput).join(', ')}`;
         document.getElementById('emailValidationOutput').textContent = `Is Valid Email: ${validateEmail(emailInput)}`;
-    }
+    };
+
 </script>
 
 </body>

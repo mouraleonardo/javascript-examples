@@ -43,9 +43,13 @@ You can open your browser's developer tools (press `F12` or `Ctrl+Shift+I` in mo
 
 - `example1.html`: Introduction to JavaScript and basic syntax.
 - `example2.html`: Understanding ES6 arrow functions.
-- `example3.html`: Working with promises for asynchronous code.
-- `example4.html`: Modules in JavaScript.
+- `example3.html`: Javascript OOP working with classes.
+- `example4.html`: Working with promises for asynchronous code.
 - `example5.html`: Destructuring assignment for arrays and objects.
+- `example6.html`: Modules in JavaScript.
+- `example7.html`: HTML fundamentals.
+- `example8.html`: HTML Forms.
+- `example9.html`: HTML 5.
 - ... more to be added as the course progresses.
 
 ---
