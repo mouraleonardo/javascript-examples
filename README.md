@@ -50,6 +50,10 @@ You can open your browser's developer tools (press `F12` or `Ctrl+Shift+I` in mo
 - `example7.html`: HTML fundamentals.
 - `example8.html`: HTML Forms.
 - `example9.html`: HTML 5.
+- `example10.html`: HTML Tables Tutorial.
+- `example11.html`: HTML Media Tutorial.
+- `example12.html`: HTML vs XHTML.
+- `example13.html`: HTML Element Reference.
 - ... more to be added as the course progresses.
 
 ---
